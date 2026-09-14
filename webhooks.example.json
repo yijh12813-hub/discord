@@ -1,0 +1,5 @@
+{
+  "realtime": "https://discord.com/api/webhooks/xxxx/REPLACE_ME",
+  "daily": "https://discord.com/api/webhooks/xxxx/REPLACE_ME",
+  "weekly": "https://discord.com/api/webhooks/xxxx/REPLACE_ME"
+}
