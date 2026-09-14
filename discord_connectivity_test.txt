@@ -1,9 +1,0 @@
-Discord Webhook Connectivity Test
-Run time: 2026-09-14
-
-RESULT: FAILED
-
-Exception: ProxyError
-Detail: HTTPSConnectionPool(host='discord.com', port=443): Max retries exceeded with url: /api/webhooks/1549063949268291755/GU5C0Ew4dzywF_VTVm9rhj3S7XfwB3wacKsDE33UEce9cvZVELFgaFfgQh5-9aNeeAaV (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
-
-Cause: The remote execution environment's outbound proxy blocks traffic to discord.com (HTTP 403 Forbidden at the proxy level). The request never reached Discord's servers.
