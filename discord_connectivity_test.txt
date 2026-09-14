@@ -1,0 +1,8 @@
+测试时间: 2026-09-14
+测试目标: https://discord.com/api/webhooks/1549063949268291755/...
+
+结果: EXCEPTION
+类型: ProxyError
+详情: HTTPSConnectionPool(host='discord.com', port=443): Max retries exceeded with url: /api/webhooks/1549063949268291755/GU5C0Ew4dzywF_VTVm9rhj3S7XfwB3wacKsDE33UEce9cvZVELFgaFfgQh5-9aNeeAaV (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+
+结论: 云端 Remote Routine 环境的出站代理屏蔽了对 discord.com 的 HTTPS 连接（403 Forbidden）。无法直接从该环境向 Discord Webhook 发送消息。
